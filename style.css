@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+@media (max-width: 600px) {
+
+    .info {
+        font-size: 14px;
+    }
+
+    .card_me {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .card_me h2 {
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    .myjob h2 {
+        margin-left: 5px;
+        padding-left: 5px; 
+    }
+    .table {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .form h2 {
+        font-size: 16px;
+    }
+    .form-group label {
+        font-size: 5px;
+    }
+}
+
+
+body {
+    font: italic normal 16px 'Protest Riot', sans-serif;
+    background-color: rgb(240, 230, 140);
+}
+
+h1 {
+    color: #005000;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.call, .me {
+    text-decoration: underline;
+}
+
+.card_me {
+    background: maroon;
+    border-radius: 10px;
+    color: deepskyblue;
+}
+
+.myjob {
+    background-color: indigo;
+    border: 2px;
+    border-radius: 10px;
+    color: aquamarine;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.avatar {
+    width: 207px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 20px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    border-radius: 10px;
+    background: darkmagenta;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: aqua;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: deepskyblue;
+    font-size: 15px;
+    transition: all, 200ms;
+}
+
+a {
+    text-decoration: none;
+    color:#005000;
+}
+
+a:hover {
+    color: black;
+    font-size: 20px;
+    transition: all, 100ms;
+    text-decoration: underline;
+}
+
+a:active {
+    color: whitesmoke;
+}
+
+/* a:visited {
+    color: maroon;
+} */
+
+
+.list {
+    list-style: disc;
+}
+
+.list li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid deepskyblue;
+    border-bottom-right-radius: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table td:hover {
+    background: #005000;
+}
+
+.table tr:last-child {
+    background: #6800b3;
+}
+
+p {
+    margin: 0;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px) */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
