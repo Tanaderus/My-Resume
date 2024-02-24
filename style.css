@@ -1,42 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
 
-@media (max-width: 600px) {
-
-    .info, .img {
-        /* font-size: 14px; */
-        display: block;
-        text-align: center;
-    }
-
-    .info-text {
-        display: block;
-        text-align: center;
-    }
-
-    .card_me {
-        font-size: 14px;
-        max-width: 100%;
-    }
-    .card_me h2 {
-        margin-left: 5px;
-        padding-left: 5px;
-    }
-    .myjob h2 {
-        margin-left: 5px;
-        padding-left: 5px; 
-    }
-    .table {
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .form h2 {
-        font-size: 16px;
-    }
-    .form-group label {
-        font-size: 5px;
-    }
-}
-
-
 body {
     font: italic normal 16px 'Protest Riot', sans-serif;
     background-color: rgb(240, 230, 140);
@@ -200,4 +163,40 @@ p {
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
+}
+
+@media (max-width: 600px) {
+
+    .info, .img {
+        /* font-size: 14px; */
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        display: block;
+        text-align: center;
+    }
+
+    .card_me {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .card_me h2 {
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    .myjob h2 {
+        margin-left: 5px;
+        padding-left: 5px; 
+    }
+    .table {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .form h2 {
+        font-size: 16px;
+    }
+    .form-group label {
+        font-size: 5px;
+    }
 }
